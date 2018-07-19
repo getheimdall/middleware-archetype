@@ -1,6 +1,6 @@
 package ${groupId}.service;
 
-import br.com.conductor.MiddlewareExampleGET;
+import ${groupId}.MiddlewareExampleGET;
 import br.com.conductor.heimdall.middleware.spec.Helper;
 import br.com.conductor.heimdall.middleware.util.helpermock.HelperMock;
 import org.junit.BeforeClass;
