@@ -1,0 +1,18 @@
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+    <id>heimdall-middleware-archetype</id>
+
+    <sources>
+        <source>src/main/java/dto/EntityDTO.java</source>
+        <source>src/main/java/enums/Enum.java</source>
+        <source>src/main/java/model/Entity.java</source>
+        <source>src/main/java/service/CallService.java</source>
+        <source>src/main/java/service/SimpleService.java</source>
+        <source>src/main/java/util/Constants.java</source>
+        <source>src/main/java/MiddlewareExampleGET.java</source>
+    </sources>
+
+    <testSources>
+        <source>src/test/java/service/SimpleServiceTest.java</source>
+    </testSources>
+</archetype>
