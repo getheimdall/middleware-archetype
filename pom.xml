@@ -4,7 +4,15 @@
 
     <groupId>br.com.conductor</groupId>
     <artifactId>heimdall-middleware-archetype</artifactId>
-    <version>1.1.0</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
+
+    <name>Heimdall Middleware Archetype</name>
+    <description>This is the archetype for a Heimdall Middleware project. It provides a simple functional middleware as a base for development.</description>
+    <url>https://getheimdall.io/</url>
+    <organization>
+        <name>Conductor Tecnologia SA</name>
+        <url>http://www.conductor.com.br/</url>
+    </organization>
 
 </project>
