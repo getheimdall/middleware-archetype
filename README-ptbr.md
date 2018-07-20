@@ -1,14 +1,14 @@
 # Heimdall Middleware Archetype
 
-This is the archetype for an Heimdall Middleware. It provides a simple functional middleware as a base for development.
+Esse projeto é o archetype para um Middleware do Heimdall. Ele provê um projeto de um middleware simples como base para o desenvolvimento.
 
-### How to use
+### Como utilizar
 
-Clone or download this repository and use this command in the root directory
+Clone ou faça o download desse repositório e utilize o seguinte comando na raiz: 
 
 `mvn install`
 
-This will create the archetype in your local repository. Now to create your middleware navigate the the folder you want your middleware project to be located and type:
+Esse comando vai criar o archetype no seu repositório local. Para criar o projeto do seu middleware navegue até o diretório que você pretende usar para a criação e execute o comando:
 
 ```
 mvn archetype:generate
@@ -20,4 +20,4 @@ mvn archetype:generate
      -DinteractiveMode=false
 ```
 
-After this you will be able to `mvn install` your middleware and test it.
+Esse comando irá criar um middleware simples e funcional, para testar basta executar o comando `mvn install` na raiz do middleware.
