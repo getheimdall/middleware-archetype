@@ -14,7 +14,7 @@ public class SimpleService {
 
     public ApiResponse method() {
 
-        String url = "http://wwww.google.com/";
+        String url = "http://www.google.com";
 
         ApiResponse response = helper.http()
             .header(Constants.CONTENT_TYPE, Constants.APPLICATION_JSON)
